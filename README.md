@@ -5,7 +5,7 @@ Scripts accompanying figures in:
 
 Datasets will be made availabe on figshare (TBA). Datasets should be downloaded to the `data` folder. 
 
-`plot_figures.R` should be used to recreate Figure 2 in Holtrop et al.  `approx_euphotic_spectra.R` can be used to approximate the spectral irrdiance at prespecified depth `EUPH_FRAC` and `csv_path` should point to `./data/irrandiance.csv` or `./data/irradiance_no_harmonics.csv`:
+`plot_figures.R` should be used to recreate Figure 2 in Holtrop et al.  `approx_euphotic_spectra.R` can be used to approximate the spectral irradiance at prespecified depth `EUPH_FRAC` and `csv_path` should point to `./data/irrandiance.csv` or `./data/irradiance_no_harmonics.csv`:
 
 ```R
 approx_euphotic_spectra('./data/irrandiance.csv', "Ed", quanta=TRUE, EUPH_FRAC=0.01)
