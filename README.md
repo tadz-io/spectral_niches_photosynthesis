@@ -16,6 +16,6 @@ Example above approximates the spectral *planar* irradiance in quanta at the eup
 approx_euphotic_spectra('./data/irradiance.csv', "Eod", quanta=TRUE, EUPH_FRAC=0.01)
 ```
 
-Jupyter notebook `spectral_niches.ipynb` should be used to recreate Figure 4 in Holtrop et al.
+Jupyter notebook `spectral_niches.ipynb` should be used to recreate Figure 4 in Holtrop et al. Remote sensing data that support the findings of this study are available from the Ocean Colour Climate Change Initiative of the European Space Agency, http://www.oceancolour.org
 
 
